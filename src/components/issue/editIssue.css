@@ -1,0 +1,86 @@
+.edit-issue-page {
+  display: flex;
+  justify-content: center;
+  padding: 48px 20px;
+}
+
+.edit-issue-card {
+  width: 100%;
+  max-width: 720px;
+  background: linear-gradient(180deg, #161b22, #0d1117);
+  border: 1px solid #30363d;
+  border-radius: 14px;
+  padding: 32px;
+}
+
+.edit-issue-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #f0f6fc;
+  margin-bottom: 28px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+}
+
+.form-group label {
+  font-size: 14px;
+  color: #c9d1d9;
+  margin-bottom: 6px;
+}
+
+.issue-input,
+.issue-textarea {
+  background-color: #0d1117;
+  color: #e6edf3;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+.issue-input:focus,
+.issue-textarea:focus {
+  outline: none;
+  border-color: #2f81f7;
+  box-shadow: 0 0 0 2px rgba(47, 129, 247, 0.2);
+}
+
+.issue-textarea {
+  resize: vertical;
+}
+
+.issue-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.btn-primary {
+  background-color: #2f81f7;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #1f6feb;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 1px solid #30363d;
+  color: #c9d1d9;
+  padding: 8px 18px;
+  border-radius: 8px;
+}
+
+.btn-secondary:hover {
+  background-color: #21262d;
+}

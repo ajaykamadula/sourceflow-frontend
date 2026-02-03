@@ -1,0 +1,120 @@
+/* ================= ROOT ================= */
+
+.profile-container {
+  max-width: 1200px;
+  margin: 32px auto;
+  padding: 0 20px;
+  color: #e6edf3;
+}
+
+/* ================= PROFILE HEADER ================= */
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 24px;
+  background-color: #0d1117;
+  border: 1px solid #1f242c;
+  border-radius: 12px;
+}
+
+/* Avatar */
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background-color: #30363d;
+}
+
+/* User info */
+.profile-info h2 {
+  font-size: 22px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.user-handle {
+  margin-top: 4px;
+  font-size: 13px;
+  color: #8b949e;
+}
+
+/* Actions */
+.profile-actions {
+  margin-left: auto;
+}
+
+.logout-btn {
+  background-color: #21262d;
+  border: 1px solid #30363d;
+  color: #e6edf3;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.logout-btn:hover {
+  background-color: #30363d;
+}
+
+/* ================= PROFILE STATS ================= */
+
+.profile-stats {
+  display: flex;
+  gap: 40px;
+  padding: 16px 24px;
+  margin-top: 12px;
+  background-color: #0d1117;
+  border: 1px solid #1f242c;
+  border-radius: 12px;
+}
+
+.profile-stats div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 13px;
+  color: #8b949e;
+}
+
+.profile-stats strong {
+  font-size: 16px;
+  color: #f0f6fc;
+}
+
+/* ================= SECTION ================= */
+
+.profile-section {
+  margin-top: 24px;
+  padding: 20px 24px;
+  background-color: #0d1117;
+  border: 1px solid #1f242c;
+  border-radius: 12px;
+}
+
+.profile-section h3 {
+  margin: 0 0 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #f0f6fc;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+  .profile-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .profile-actions {
+    margin-left: 0;
+    margin-top: 12px;
+  }
+
+  .profile-stats {
+    justify-content: space-around;
+  }
+}

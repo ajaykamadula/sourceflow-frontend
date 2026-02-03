@@ -1,0 +1,101 @@
+.activity-card {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.03),
+    rgba(255, 255, 255, 0.01)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 24px;
+  margin-top: 24px;
+}
+
+/* Header */
+.activity-header h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.activity-header .subtitle {
+  font-size: 13px;
+  opacity: 0.65;
+  margin-top: 2px;
+}
+
+/* Heatmap */
+.heatmap-wrapper {
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+  margin-top: 16px;
+}
+
+/* Legend */
+.heatmap-legend {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+  font-size: 12px;
+  opacity: 0.75;
+}
+
+.legend-scale {
+  display: flex;
+  gap: 4px;
+}
+
+.legend-scale .lvl {
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+}
+
+.lvl-0 {
+  background: #161b22;
+}
+.lvl-1 {
+  background: #0e4429;
+}
+.lvl-2 {
+  background: #006d32;
+}
+.lvl-3 {
+  background: #26a641;
+}
+.lvl-4 {
+  background: #39d353;
+}
+
+/* Loading */
+.heatmap-loading {
+  font-size: 14px;
+  opacity: 0.7;
+}
+/* ================= HEATMAP LABELS ================= */
+
+/* Month labels (Jan, Feb, Mar...) */
+.HeatMapProfile text {
+  fill: #e6edf3 !important;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* Day labels (Sun, Mon, Tue...) */
+.HeatMapProfile text tspan {
+  fill: #8b949e !important;
+}
+/* ================= FORCE HEATMAP LABEL VISIBILITY ================= */
+
+/* Month labels */
+.HeatMapProfile svg g text {
+  fill: #e6edf3 !important;
+  opacity: 1 !important;
+}
+
+/* Day labels (Sun, Mon...) */
+.HeatMapProfile svg text {
+  fill: #c9d1d9 !important;
+  opacity: 1 !important;
+}

@@ -1,0 +1,76 @@
+.repo-details {
+  padding: 24px;
+}
+
+/* 🔹 HEADER */
+.repo-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* 👈 CENTER EVERYTHING */
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.repo-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.repo-description {
+  color: #9da7b1;
+  font-size: 15px;
+  max-width: 680px;
+  margin-bottom: 16px;
+}
+
+/* 🔹 ACTION BUTTONS */
+.repo-actions {
+  display: flex;
+  gap: 14px;
+  justify-content: center; /* 👈 CENTER BUTTON ROW */
+  margin-top: 8px;
+}
+
+/* Edit button */
+.edit-btn {
+  padding: 8px 18px;
+  background: #21262d;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  color: #c9d1d9;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background: #30363d;
+}
+
+/* Delete button */
+.delete-btn {
+  padding: 8px 18px;
+  background: transparent;
+  border: 1px solid #f85149;
+  border-radius: 6px;
+  color: #f85149;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: rgba(248, 81, 73, 0.15);
+}
+.pull-btn {
+  padding: 8px 14px;
+  background: #21262d;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  color: #c9d1d9;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.pull-btn:hover {
+  background: #30363d;
+  color: white;
+}
+

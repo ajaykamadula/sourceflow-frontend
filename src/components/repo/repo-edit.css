@@ -1,0 +1,91 @@
+
+.repo-edit-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 48px 16px;
+}
+
+.repo-edit-card {
+  width: 100%;
+  max-width: 640px;
+  background: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.repo-edit-card h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.repo-edit-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.repo-edit-field label {
+  font-size: 13px;
+  color: #8b949e;
+  margin-bottom: 6px;
+}
+
+.repo-edit-field input,
+.repo-edit-field textarea {
+  background: #010409;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  padding: 10px 12px;
+  color: #c9d1d9;
+  font-size: 14px;
+}
+
+.repo-edit-field textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.repo-edit-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.repo-edit-actions button {
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.repo-edit-actions .save-btn {
+  background: #238636;
+  border: 1px solid #2ea043;
+  color: white;
+}
+
+.repo-edit-actions .save-btn:hover {
+  background: #2ea043;
+}
+
+.repo-edit-actions .cancel-btn {
+  background: transparent;
+  border: 1px solid #30363d;
+  color: #c9d1d9;
+}
+
+.repo-edit-actions .cancel-btn:hover {
+  background: #21262d;
+}
+
+.repo-edit-actions .delete-btn {
+  margin-left: auto;
+  background: transparent;
+  border: 1px solid #f85149;
+  color: #f85149;
+}
+
+.repo-edit-actions .delete-btn:hover {
+  background: rgba(248, 81, 73, 0.1);
+}

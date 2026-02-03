@@ -1,0 +1,124 @@
+.issue-card {
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.issue-card:hover {
+  background-color: rgba(255, 255, 255, 0.04);
+}
+
+.issues-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.new-issue-btn {
+  background-color: var(--accent);
+  color: #000;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 14px;
+  cursor: pointer;
+}
+
+.new-issue-btn:hover {
+  background-color: var(--accent-hover);
+}
+
+.issues-page {
+  min-height: 100vh;
+  background-color: #0d1117;
+  display: flex;
+  justify-content: center;
+  padding: 40px 16px;
+  color: #c9d1d9;
+}
+
+.issues-container {
+  width: 100%;
+  max-width: 900px;
+}
+
+.issues-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #30363d;
+  padding-bottom: 10px;
+}
+
+.no-issues {
+  color: #8b949e;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* ISSUE CARD */
+
+.issue-card {
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: #0d1117;
+}
+
+.issue-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.issue-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.issue-status {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+/* Status colors */
+.issue-status.open {
+  background-color: rgba(46, 160, 67, 0.15);
+  color: #2ea043;
+}
+
+.issue-status.in-progress {
+  background-color: rgba(227, 179, 65, 0.15);
+  color: #e3b341;
+}
+
+.issue-status.closed {
+  background-color: rgba(248, 81, 73, 0.15);
+  color: #f85149;
+}
+
+.issue-description {
+  color: #8b949e;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.issue-meta {
+  display: flex;
+  gap: 20px;
+  font-size: 12px;
+  color: #6e7681;
+}
+.issue-author {
+  color: var(--accent);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.issue-author:hover {
+  text-decoration: underline;
+}
+
